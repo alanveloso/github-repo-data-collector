@@ -3,7 +3,7 @@
 Este projeto consiste em dois scripts Python:
 
 1. **coletor_github.py**: Monitora o número de commits e releases em repositórios do GitHub, permitindo analisar a atividade de desenvolvimento.
-2. **repository.age.calculator.py**: Calcula o tempo de existência de repositórios do GitHub em meses, desde a data de criação até um mês e ano fornecidos. O objetivo é permitir a comparação da maturidade entre diferentes projetos ao longo do tempo. Os resultados são salvos em arquivos CSV.
+2. **repository_age_calculator.py**: Calcula o tempo de existência de repositórios do GitHub em meses, desde a data de criação até um mês e ano fornecidos. O objetivo é permitir a comparação da maturidade entre diferentes projetos ao longo do tempo. Os resultados são salvos em arquivos CSV.
 
 ## Funcionalidades
 
@@ -30,7 +30,7 @@ Este projeto consiste em dois scripts Python:
    pip install requests
 ```
 
-3. Substitua o token do GitHub nos scripts: No arquivo **coletor_github.py** e no arquivo **repository.age.calculator.py**, substitua o valor da variável ```token``` pelo seu token pessoal do GitHub, que é necessário para acessar a API do GitHub.
+3. Substitua o token do GitHub nos scripts: No arquivo **coletor_github.py** e no arquivo **repository_age_calculator.py**, substitua o valor da variável ```token``` pelo seu token pessoal do GitHub, que é necessário para acessar a API do GitHub.
 
 4. Execute o script de monitoramento:
   ```bash
@@ -40,7 +40,7 @@ python coletor_github.py
 
 5. Execute o script de cálculo da idade:
   ```bash
-python repository.age.calculator.py
+python repository_age_calculator.py
 ```
 *Durante a execução, você será solicitado a inserir o ano final (YYYY) e o mês final (MM) para calcular a idade dos repositórios.*
 
