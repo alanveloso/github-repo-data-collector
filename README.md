@@ -111,9 +111,9 @@ hyperledger-labs/ansible-collection,4
 4. pull_requests.csv:
   ```bash
 Repositório,Quantidade PRs Abertos,Tempo Médio Sem Resposta (dias),PRs Aceitos,PRs Rejeitados
-hyperledger-labs/fablo,1,25.0,27,2
-hyperledger-labs/fabric-operator,5,172.2,22,3
-hyperledger-labs/ansible-collection,0,0,25,5
+hyperledger-labs/fablo,6,227.16666666666666,219,78
+hyperledger-labs/fabric-operator,15,469.3333333333333,102,23
+hyperledger-labs/ansible-collection,0,0,60,9
 ...
 ```
 
